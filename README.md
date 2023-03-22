@@ -6,7 +6,12 @@ Features include: adding a task, deleting a task. editing a ask.
 Completion features: mark a task as completed, keep track of completed and incompleted tasks.
 
 ## Feature Demo
-![alt text](https://github.com/harmya/todolist/blob/master/demo/add.png)
+# Initial View
+![Initial Window](https://github.com/harmya/todolist/blob/master/demo/inital.png)
+# Adding a Task
+![Add Task](https://github.com/harmya/todolist/blob/master/demo/add.png)
+# Editing a Task
+![Edit Task](https://github.com/harmya/todolist/blob/master/demo/edit.png)
 
 ## How to run
 cd in the 'todolist' directory
