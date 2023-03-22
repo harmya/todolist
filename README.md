@@ -1,24 +1,13 @@
-# todolist
+### To-Do List
 
-## Project setup
-```
-npm install
-```
+## Description
+This app is used to keep track of daily tasks and manage them.
+Features include: adding a task, deleting a task. editing a ask.
+Completion features: mark a task as completed, keep track of completed and incompleted tasks.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Feature Demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## How to run
+cd in the 'todolist' directory
+run 'npm install' to install all the dependencies
+run 'npm run serve' to run the app
