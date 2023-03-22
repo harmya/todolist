@@ -59,7 +59,8 @@
     font-family: Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #0b0c0c;
+    color: #0c0c0c;
+  
     display: block;
     margin-bottom: 5px;
   }

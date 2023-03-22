@@ -90,7 +90,7 @@
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.25;
-    color: #0b0c0c;
+    color: #40513B;
     display: block;
     margin-bottom: 5px;
   }
@@ -167,7 +167,8 @@
   }
   .custom-checkbox > input[type="checkbox"]:focus + label::before {
     border-width: 4px;
-    outline: 3px dashed #228bec;
+    outline: 3px dashed #22ec7d;
+    background-color: #9DC08B;
   }
   .custom-checkbox > label::after {
     box-sizing: content-box;

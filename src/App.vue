@@ -32,14 +32,7 @@ export default {
   data() {
     return {
       ToDoItems: [
-        { id: uniqueId("todo-"), label: "Learn Vue", done: false },
-        {
-          id: uniqueId("todo-"),
-          label: "Create a Vue project with the CLI",
-          done: true,
-        },
-        { id: uniqueId("todo-"), label: "Have fun", done: true },
-        { id: uniqueId("todo-"), label: "Create a to-do list", done: false },
+        { id: uniqueId("todo-"), label: "Create First Task", done: false }
       ],
     };
   },
@@ -80,24 +73,42 @@ export default {
 /* Global styles */
 .btn {
   padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #4d4d4d;
+  border: 0.2rem solid #9DC08B;
+  background-color: #609966;
+  border-radius: 3.5rem;
   cursor: pointer;
   text-transform: capitalize;
+}
+.btn:hover {
+  background-color: #3b6e2b;
+  color: #EEEEEE;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+
 }
 .btn__danger {
   color: #fff;
   background-color: #ca3c3c;
-  border-color: #bd2130;
+  border-color: #9DC08B;
+  border-radius: 3.5rem;
 }
 .btn__filter {
   border-color: lightgrey;
 }
-.btn__danger:focus {
-  outline-color: #c82333;
+.btn__danger:hover {
+  background-color: #4f030b;
+  border-radius: 0.5rem;
+  transition: 0.3s;
 }
 .btn__primary {
-  color: #fff;
-  background-color: #000;
+  color: #40513B;
+  background-color: #609966;
+  border-radius: 3.5rem;
+}
+.btn__primary:hover {
+  background-color: #40513B;
+  color: #EEEEEE;
+  transition: 0.3s;
 }
 .btn-group {
   display: flex;
@@ -157,7 +168,7 @@ export default {
 }
 /* End global styles */
 #app {
-  background: #fff;
+  background: #609966;
   margin: 2rem 0 4rem 0;
   padding: 1rem;
   padding-top: 0;
@@ -170,9 +181,10 @@ export default {
   }
 }
 #app > * {
-  max-width: 50rem;
+  max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
+  background-color: #9DC08B; 
 }
 #app > form {
   max-width: 100%;
